@@ -11,10 +11,7 @@
     android:layout_height="150dp"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_margin="2dp"
-    app:cardCornerRadius="15dp"
-
-
-    >
+    app:cardCornerRadius="15dp">
 
     <LinearLayout
 
@@ -25,7 +22,6 @@
         android:gravity="center">
 
         <ImageView
-
             android:id="@+id/movie_icon"
             android:layout_width="100dp"
             android:layout_height="130dp"
@@ -38,12 +34,9 @@
         android:orientation="vertical"
         android:gravity="center"
         android:layout_marginLeft="7dp"
-        android:layout_marginStart="7dp"
-
-        >
+        android:layout_marginStart="7dp">
 
         <TextView
-
             android:id="@+id/movie_title"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -52,7 +45,6 @@
             android:textSize="20dp" />
 
         <TextView
-
             android:id="@+id/movie_category"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
